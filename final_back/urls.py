@@ -41,7 +41,7 @@ urlpatterns = [
     path('accounts/genre/', account_views.genres),
     
     # 팔로우
-    path('accounts/follow/', account_views.follow),
+    path('accounts/follow/<int:user_pk>/', account_views.follow),
     
     # 프로필 이미지 추가
     path('accounts/image/', account_views.upload_profile_image),
