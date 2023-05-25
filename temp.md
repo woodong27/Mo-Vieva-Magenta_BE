@@ -26,8 +26,9 @@ TMDB에서 수집한 영화 데이터를 바탕으로 영화 추천 알고리즘
 - 개발 환경(Back-end)
     - Python<br>
     - Django 3.2.18<br>
-    - Django REST Framework<br>
-<br>
+    - Django REST Framework
+<hr>
 
 #### ERD
+![final-pjt-erd](https://github.com/woodong27/SSAFY_Final/assets/122415763/b24c2b42-2aa1-45d5-92f4-ddd90e97c20b)
 
