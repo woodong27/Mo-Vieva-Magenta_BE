@@ -78,12 +78,6 @@ INSTALLED_APPS = [
 ]
 
 
-GRAPH_MODELS={
-    'app_labels': ['accounts', 'communities', 'movies'],
-    'font_name': 'Arial',
-}
-
-
 REST_AUTH={
     'SESSION_LOGIN': False
 }
