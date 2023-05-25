@@ -34,7 +34,7 @@ TMDB에서 수집한 영화 데이터를 바탕으로 영화 추천 알고리즘
 
 #### URL
 
-|App|Authentication|Method|URL|Description| 
+|앱|인증|Method|URL|설명| 
 |:---:|:---:|:---:|:---:|:---:|
 |accounts/| X |POST|signup/|회원가입|
 |accounts/| X |POST|login/|로그인|
