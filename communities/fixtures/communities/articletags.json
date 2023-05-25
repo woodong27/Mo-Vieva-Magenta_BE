@@ -1,0 +1,1 @@
+[{"model": "communities.articletag", "pk": 1, "fields": {"tag": "자유"}}, {"model": "communities.articletag", "pk": 2, "fields": {"tag": "영화후기"}}, {"model": "communities.articletag", "pk": 3, "fields": {"tag": "모임모집"}}, {"model": "communities.articletag", "pk": 4, "fields": {"tag": "모임후기"}}, {"model": "communities.articletag", "pk": 5, "fields": {"tag": "공지"}}]
