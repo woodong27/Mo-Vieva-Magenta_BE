@@ -34,34 +34,34 @@ TMDB에서 수집한 영화 데이터를 바탕으로 영화 추천 알고리즘
 
 |App|Authorization|Method|url|설명|
 |:---:|:---:|:---:|:---:|:---:|
-| accounts | X | POST | signup/ | 회원가입 |
-| accounts | X | POST | login/ | 로그인 |
-| accounts | O | POST | logout/ | 로그아웃 |
-| accounts | O | POST | password/change/ | 회원가입 |
-| accounts | O | POST | admin/ | 관리자 권한 토글 |
-| accounts | O | POST | genre/ | 선호 장르 선택 |
-| accounts | O | GET | genre/ | 선택한 선호 장르 목록 |
-| accounts | O | POST | grade/<int:grade_pk>/ | 유저 등급 변경 |
-| accounts | O | POST | follow/<int:user_pk>/ | 해당 유저 follow/unfollow |
-| accounts | O | GET | userinfo/ | 현재 로그인된 유저의 정보 |
-| accounts | X | GET | <int:user_pk>/ | 해당 유저의 정보 |
-| community | O | POST | create/ | article 작성<br>data로 tag, movie 등을 받을 수 있음 |
-| community | O | POST | notice/ | 공지글 작성 |
-| community | X | GET | list/ | 전체 article 목록 |
-| community | X | GET | tag/<int:tag_pk>/ | 태그별 article 목록 |
-| community | X | GET | id/<int:movieId>/ | 해당 영화와 관련된 article 목록<br>query string으로 tag 선택 가능 |
-| community | X | GET | <int:article_pk>/ | article detail |
-| community | O | PUT | <int:article_pk>/ | article 수정 |
-| community | O | DELETE | <int:article_pk>/ | article 삭제 |
-| community | O | POST | <int:article_pk>/upvote/ | article 추천 |
-| community | O | POST | <int:article_pk>/downvote/ | article 비추천 |
-| community | O | POST | <int:article_pk>/comment/ | article에 댓글 작성<br>isSecret에 따라서 비밀 댓글 작성 가능 |
-| community | X | GET | <int:article_pk>/comment/ | article의 댓글 목록 |
-| community | X | GET | comment/<int:article_pk>/ | 댓글 가져오기 |
-| community | O | PUT | comment/<int:article_pk>/ | 댓글 수정 |
-| community | O | PUT | comment/<int:article_pk>/ | 댓글 삭제 |
-| community | O | POST | comment/<int:article_pk>/upvote/ | 댓글 추천 |
-| community | O | POST | comment/<int:article_pk>/downvote/ | 댓글 비추천 |
+| accounts/ | X | POST | signup/ | 회원가입 |
+| accounts/ | X | POST | login/ | 로그인 |
+| accounts/ | O | POST | logout/ | 로그아웃 |
+| accounts/ | O | POST | password/change/ | 회원가입 |
+| accounts/ | O | POST | admin/ | 관리자 권한 토글 |
+| accounts/ | O | POST | genre/ | 선호 장르 선택 |
+| accounts/ | O | GET | genre/ | 선택한 선호 장르 목록 |
+| accounts/ | O | POST | grade/&lt;int:grade_pk&gt;/ | 유저 등급 변경 |
+| accounts/ | O | POST | follow/&lt;int:user_pk&gt;/ | 해당 유저 follow/unfollow |
+| accounts/ | O | GET | userinfo/ | 현재 로그인된 유저의 정보 |
+| accounts/ | X | GET | &lt;int:user_pk&gt;/ | 해당 유저의 정보 |
+| community/ | O | POST | create/ | article 작성<br>data로 tag, movie 등을 받을 수 있음 |
+| community/ | O | POST | notice/ | 공지글 작성 |
+| community/ | X | GET | list/ | 전체 article 목록 |
+| community/ | X | GET | tag/&lt;int:tag_pk&gt;/ | 태그별 article 목록 |
+| community/ | X | GET | id/&lt;int:movieId&gt;/ | 해당 영화와 관련된 article 목록<br>query string으로 tag 선택 가능 |
+| community/ | X | GET | &lt;int:article_pk&gt;/ | article detail |
+| community/ | O | PUT | &lt;int:article_pk&gt;/ | article 수정 |
+| community/ | O | DELETE | &lt;int:article_pk&gt;/ | article 삭제 |
+| community/ | O | POST | &lt;int:article_pk&gt;/upvote/ | article 추천 |
+| community/ | O | POST | &lt;int:article_pk&gt;/downvote/ | article 비추천 |
+| community/ | O | POST | &lt;int:article_pk&gt;/comment/ | article에 댓글 작성<br>isSecret에 따라서 비밀 댓글 작성 가능 |
+| community/ | X | GET | &lt;int:article_pk&gt;/comment/ | article의 댓글 목록 |
+| community/ | X | GET | comment/&lt;int:article_pk&gt;/ | 댓글 가져오기 |
+| community/ | O | PUT | comment/&lt;int:article_pk&gt;/ | 댓글 수정 |
+| community/ | O | PUT | comment/&lt;int:article_pk&gt;/ | 댓글 삭제 |
+| community/ | O | POST | comment/&lt;int:article_pk&gt;/upvote/ | 댓글 추천 |
+| community/ | O | POST | comment/&lt;int:article_pk&gt;/downvote/ | 댓글 비추천 |
 
 
 <hr>
