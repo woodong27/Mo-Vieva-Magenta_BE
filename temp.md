@@ -10,7 +10,7 @@
 6. python manage.py loaddata accounts/grades.json accounts/users.json communities/articletags.json movies/genres.json movies/movies.json movies/videos.json movies/keywords.json
 7. python manage.py runserver
 ```
-<hr>
+---
 
 #### 업무 내역
 - Back-end
@@ -18,7 +18,7 @@
 - 영화 추천 알고리즘 제작
 - heroku를 사용한 back-end 서버 배포
 
-<hr>
+---
 
 #### 영화 추천 알고리즘 기반 커뮤니티 서비스 - 무 비바 마젠타
 - 서비스 목표<br>
@@ -27,17 +27,17 @@ TMDB에서 수집한 영화 데이터를 바탕으로 영화 추천 알고리즘
     - Python<br>
     - Django 3.2.18<br>
     - Django REST Framework
-<hr>
+---
 
 #### URL
 
 
-<hr>
+---
 
 #### ERD
 ![final-pjt-erd](https://github.com/woodong27/SSAFY_Final/assets/122415763/b24c2b42-2aa1-45d5-92f4-ddd90e97c20b)
 
-<hr>
+---
 
 #### 추천 알고리즘
 유저마다 선택한 선호 장르와 좋아요/싫어요 표시한 영화를 바탕으로 컨텐츠 기반 필터링을 사용하여 추천 영화 목록을 구성하는 알고리즘<br>
@@ -47,4 +47,4 @@ TMDB에서 수집한 영화 데이터를 바탕으로 영화 추천 알고리즘
 해당 영화가 좋아요 표시한 영화와 유사한 영화 목록에 있다면 가중치를 더해주고, 싫어요 표시한 영화와 유사한 영화 목록에 있다면 가중치를 감소시켜 줌<br>
 모든 영화에 대해서 가중치가 계산되고 나면, 가중치를 바탕으로 영화를 내림차순 정렬하여 추천 영화 목록을 구성
 
-<hr>
+---
