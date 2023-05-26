@@ -34,6 +34,8 @@ TMDB에서 수집한 영화 데이터를 바탕으로 영화 추천 알고리즘
 
 #### URL
 
+* https://ssafy-final.herokuapp.com
+
 |App|Authentication|Method|URL|Description| 
 |:---:|:---:|:---:|:---:|:---:|
 |accounts/| X |POST|signup/|회원가입|
