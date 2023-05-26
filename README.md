@@ -39,7 +39,7 @@ TMDB에서 수집한 영화 데이터를 바탕으로 영화 추천 알고리즘
 |accounts/| X |POST|signup/|회원가입|
 |accounts/| X |POST|login/|로그인|
 |accounts/| O |POST|logout/|로그아웃|
-|accounts/| O |POST|password/change/|회원가입|
+|accounts/| O |POST|password/change/|비밀번호 변경|
 |accounts/| O |POST|admin/|관리자 권한 토글|
 |accounts/| O |POST|genre/|선호 장르 선택|
 |accounts/| O |GET|genre/|선택한 선호 장르 목록|
