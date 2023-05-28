@@ -83,6 +83,8 @@
 
 7. 추가 명령어<br>
     ```markdown
+    heroku logs --tail : 서버 기록 확인
+
     heroku ps:scale web=0 : 배포한 서버 종료
 
     heroku ps:scale web=1 : 서버 다시 열기
