@@ -1,14 +1,13 @@
 # Heroku 서버 배포 방법
 
 1. manage.py파일이 있는 위치에 Procfile, runtime.txt 생성<br>
-    Procfile
+
+    ##### Procfile
     ```markdown
     web: gunicorn {프로젝트 이름}.wsgi --log-file -
     ```
 
-    <br>
-
-    runtime.txt
+    ##### runtime.txt
     ```markdown
     python-{프로젝트에서 사용한 버전}
 
@@ -21,13 +20,13 @@
 
 2. django 라이브러리 설치
     ```bash
-    pip install django-heroku
+    `pip install django-heroku`
 
-    pip install whitenoise
+    `pip install whitenoise`
 
-    pip install dj-database-url
+    `pip install dj-database-url`
 
-    pip install gunicorn
+    `pip install gunicorn`
     ```
     <br>
 
@@ -61,7 +60,7 @@
 5. heroku 회원가입<br>
 
 6. 터미널 창에서 명령어 입력<br>
-    ```markdown
+    ```bash
     `heroku login` : 회원가입 한 계정으로 로그인 진행
 
     `heroku create {앱 이름}` : 해당 앱 이름으로 도메인 생성됨
