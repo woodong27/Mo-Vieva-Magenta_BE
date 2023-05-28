@@ -19,14 +19,14 @@
 
 
 2. django 라이브러리 설치
-    ```bash
-    `pip install django-heroku`
+    ```markdown
+    pip install django-heroku
 
-    `pip install whitenoise`
+    pip install whitenoise
 
-    `pip install dj-database-url`
+    pip install dj-database-url
 
-    `pip install gunicorn`
+    pip install gunicorn
     ```
     <br>
 
@@ -60,20 +60,20 @@
 5. heroku 회원가입<br>
 
 6. 터미널 창에서 명령어 입력<br>
-    ```bash
-    `heroku login` : 회원가입 한 계정으로 로그인 진행
+    ```markdown
+    heroku login : 회원가입 한 계정으로 로그인 진행
 
-    `heroku create {앱 이름}` : 해당 앱 이름으로 도메인 생성됨
+    heroku create {앱 이름} : 해당 앱 이름으로 도메인 생성됨
 
-    `heroku git:remote -a {앱 이름}` : 생성한 앱의 이름을 입력
+    heroku git:remote -a {앱 이름} : 생성한 앱의 이름을 입력
 
-    `git push heroku master` 또는 main : 둘중 에러가 발생하지 않는 곳으로 push
+    git push heroku master 또는 main : 둘중 에러가 발생하지 않는 곳으로 push
 
-    `heroku run python manage.py migrate`
+    heroku run python manage.py migrate
 
-    `heroku run python manage.py loaddata` : loaddata할 json파일이 있을 경우 진행
+    heroku run python manage.py loaddata : loaddata할 json파일이 있을 경우 진행
 
-    `heroku open` : 404페이지나 ''주소에서의 api가 나온다면 배포 성공
+    heroku open : 404페이지나 ''주소에서의 api가 나온다면 배포 성공
     ```
 
     만약 프로젝트에서 .env파일을 사용해서 api key들을 관리하고 있다면
@@ -83,9 +83,9 @@
 
 7. 추가 명령어<br>
     ```markdown
-    `heroku ps:scale web=0` : 배포한 서버 종료
+    heroku ps:scale web=0 : 배포한 서버 종료
 
-    `heroku ps:scale web=1` : 서버 다시 열기
+    heroku ps:scale web=1 : 서버 다시 열기
 
-    `heroku destroy` : 서버 삭제(앱 삭제)
+    heroku destroy : 서버 삭제(앱 삭제)
     ```
